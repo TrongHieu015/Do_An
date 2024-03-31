@@ -1,0 +1,60 @@
+.container{
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: auto;
+}
+.tab-button button{
+    width: 33%;
+    padding: 20px 0;
+    border: none;
+    background: transparent;
+    border-radius: 10px; /* Bo tròn góc của nút */
+    transition: background 0.3s ease; /* Thêm hiệu ứng chuyển đổi màu nền */
+}
+.tab-button button:hover, .tab-button button.active{
+    background: #8ed1d5; /* Đổi màu nền khi di chuột vào hoặc nút đang được chọn */
+}
+.tab-content{
+    overflow: auto;
+    display: none;
+    margin-bottom: 15px;
+    transition: .4s;
+}
+.row > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box{
+    padding: 20px 100px;
+    background-color: yellow;
+}
+/* Thêm quy tắc CSS cho các ô nhập liệu */
+.inputbox {
+    width: 80%; /* Giảm chiều ngang */
+    border-radius: 10px; /* Bo tròn góc */
+    padding: 10px; /* Thêm đệm để tăng kích thước và cải thiện trải nghiệm người dùng */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Màu nền ban đầu */
+    color: white; /* Màu chữ */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s; /* Thời gian chuyển đổi */
+    cursor: pointer;
+    border-radius: 10px; /* Bo tròn góc */
+}
+
+.btn-primary:hover {
+    background-color: #8ed1d5; /* Màu nền khi di chuột vào */
+    color: black; /* Màu chữ khi di chuột vào */
+    
+}
