@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre&family=Josefin+Sans&display=swap');
+
+
+body {
+    background: hsl(84, 3%, 94%);
+}
+
+.seastion_post {
+    height: 200px;
+    width: 100px;
+    background-color: #555;
+    padding: auto;
+    margin: 0 auto;
+}
